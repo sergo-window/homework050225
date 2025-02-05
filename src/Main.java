@@ -1,5 +1,54 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        var dog = 8.0;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+        var paper = 763789;
+        System.out.println(paper);
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+        var weightBoxer1 = 78.2;
+        System.out.println(weightBoxer1);
+        var weightBoxer2 = 82.7;
+        System.out.println(weightBoxer2);
+        var totalWeight = weightBoxer1 + weightBoxer2;
+        System.out.println(totalWeight);
+        var differenceWeight = weightBoxer2 - weightBoxer1;
+        System.out.println(differenceWeight);
+        var remainder = weightBoxer2 % weightBoxer1;
+        System.out.println(remainder);
+        var totalWorkingTime = 640;
+        System.out.println(totalWorkingTime);
+        var oneEmployeeWorkingTime = 8;
+        System.out.println(oneEmployeeWorkingTime);
+        var totalCompanyEmployees = totalWorkingTime / oneEmployeeWorkingTime;
+        System.out.println("Всего сотрудников в компании " + totalCompanyEmployees + " человек.");
+        var totalCompanyEmployees2 = totalCompanyEmployees + 94;
+        System.out.println("Если в компании работает " + totalCompanyEmployees2 + " человек, то всего " + (totalCompanyEmployees2 * oneEmployeeWorkingTime) + " часов работы может быть поделено между сотрудниками");
     }
 }
